@@ -1,16 +1,15 @@
 .card {
-    margin-right: 200px;
-    padding: 1em 0;
+    margin-left: 0 px;
+    padding: 1em 0; 
     gap: 0.5em;
     /* margin: 95px; */
-    width: 70%;
+    width: 80%;
     /* height: 50%; */
-    border: solid 5px rgba(250, 248, 248, 0.139);
-    border-radius: 20px;
+    border: solid 5px rgba(255, 255, 255, 1);
+    border-radius: 10px;
     margin-bottom: 10px;
     /* text-align: center; */
-    background-color: rgba(8, 4, 0, 0.848);
-    box-shadow: 5px 5px 5px black;
+    background-color: rgb(5, 26, 58);
     transition: 0.3s ease;
     color: white;
 }

@@ -4,7 +4,7 @@ import './Proyectos.css'
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Formulario from "../Componentes/Formulario";
-import fondo from '../assets/img/fondo.jpg'
+import fondo from '../assets/img/pexels.jpg'
 
 
 const Proyectos = () => {
@@ -17,7 +17,7 @@ const Proyectos = () => {
                 <h1 className="proyecto">Proyectos</h1>
                 <div className="boton-container">
                     <NavLink className='navlink-create' to="/create">
-                        <button>Crear<Icon icon="ph:link-bold" color="gray" /></button>
+                        <button className="btce">Crear un nuevo proyecto<Icon icon="ph:link-bold" color="gray" /></button>
                     </NavLink>
                 </div>
             </div>

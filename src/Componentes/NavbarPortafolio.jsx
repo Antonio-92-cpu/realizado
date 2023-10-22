@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom"
 import './NavbarPortafolio.css'
-import logo from '../assets/img/logo.png'
+
 
 const NavbarPortafolio = () => {
   return (
@@ -12,9 +12,9 @@ const NavbarPortafolio = () => {
           <NavLink className="lol" to='/backendskills'>Habilidades Back-End</NavLink>
           <NavLink className="lol" to='/proyectos'>Proyectos</NavLink>
         </nav>
-        <div className="logo">
+      {/*  <div className="logo">
         <img src={logo}></img>
-      </div>
+      </div> */}
     </>
   )
 }

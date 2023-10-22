@@ -4,11 +4,11 @@
 .lol{
     text-decoration: none;
 }
-nav{
+/* nav{
     float: right; 
     /* width: 50%; 
     height: 10px; */
-    margin-top: 1%; 
+ /* margin-top: 1%; 
     display: flex;
     align-items: end;
     justify-content: flex-end;
@@ -24,8 +24,21 @@ nav a{
 .logo img {
     max-height: 150px; 
 }
-
+*/
 /* .contenedor-logo{
     float: left; 
     width: 50%; 
 } */
+
+nav {
+    text-align: center; /* Centra el contenido del elemento */
+    font-size: large;
+}
+
+nav a {
+    color: white;
+    text-decoration: none; /* Añade esto si deseas eliminar la subrayado predeterminado de los enlaces */
+    margin: 0 20px; /* Agrega margen a los enlaces para separarlos */
+}
+
+

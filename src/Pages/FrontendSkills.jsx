@@ -1,5 +1,5 @@
 import './FrontendSkills.css'
-import fondo from '../assets/img/fondo.jpg'
+import fondo from '../assets/img/pexels.jpg'
 
 
 const FrontendSkills = () => {

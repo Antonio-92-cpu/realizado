@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
 import './EditarFormulario.css'
 import { Icon } from '@iconify/react';
-import fondo from '../assets/img/fondo.jpg'
+import fondo from '../assets/img/pexels.jpg'
 
 const url = "https://portafolio-backend-production-eb9a.up.railway.app/api/v1/portfolio"
 

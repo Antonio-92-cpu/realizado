@@ -4,7 +4,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;
 }
 
 .imagenfondo{
@@ -32,7 +31,7 @@
 } */
 
 .formulario {
-    border: solid 5px rgba(250, 248, 248, 0.139);
+    border: solid 5px rgb(255, 255, 255);
     width: 100%;
     background-color: rgba(0, 0, 0, 0.894);
     color: rgb(250, 248, 248);
@@ -50,8 +49,8 @@
     width: 95%;
     padding: 10px;
     border-radius: 5px;
-    border: 3px solid rgba(250, 248, 248, 0.139);
-    background-color: rgba(255, 255, 255, 0.1);
+    border: 3px solid rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
     color: burlywood;
     margin-bottom: 10px;
 }
@@ -60,6 +59,6 @@
     background-color: rgba(0, 0, 0, 0.476);
     color: black;
     padding: 10px;
-    border-radius: 5px;
-    border: solid 2px rgba(250, 248, 248, 0.139);
+    border-radius: 3px;
+    border: solid 2px rgba(255, 255, 255, 1);
 }

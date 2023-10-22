@@ -1,6 +1,6 @@
 import './SobreMi.css'
-import fondo from '../assets/img/fondo.jpg'
-import perfil from '../assets/img/perfil.jpeg'
+import fondo from '../assets/img/pexels.jpg'
+
 
 
 const SobreMi = () => {
@@ -9,12 +9,7 @@ const SobreMi = () => {
             {<div className="contenedor-con-fondo">
                 <img className='imagenfondo' src={fondo} />
             </div>}
-            <div className='padre'>
-                <div className='contenedor'>
-                    <div className='card-img'>
-                        <img className='imagen-card' src={perfil} />
-                    </div>
-                </div>
+          <div className='padre'>
                 <div className='contenedor-skills'>
                     <div className='card'>
                         <div className='separador-sobremi'>

@@ -3,7 +3,7 @@ import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import './CreateFormulario.css'
 import { Icon } from '@iconify/react';
-import fondo from '../assets/img/fondo.jpg'
+import fondo from '../assets/img/pexels.jpg'
 
 
 
